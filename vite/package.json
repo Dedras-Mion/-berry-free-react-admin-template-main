@@ -1,0 +1,72 @@
+{
+  "name": "berry-material-react-js",
+  "version": "4.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@fontsource/inter": "5.2.5",
+    "@fontsource/poppins": "5.2.6",
+    "@fontsource/roboto": "5.2.5",
+    "@mui/icons-material": "7.1.0",
+    "@mui/material": "7.1.0",
+    "@tabler/icons-react": "3.31.0",
+    "@vitejs/plugin-react": "4.4.1",
+    "apexcharts": "4.7.0",
+    "framer-motion": "12.10.1",
+    "lodash-es": "4.17.21",
+    "material-ui-popup-state": "5.3.5",
+    "react": "19.1.0",
+    "react-apexcharts": "1.7.0",
+    "react-dom": "19.1.0",
+    "react-perfect-scrollbar": "1.5.8",
+    "react-router": "7.5.3",
+    "react-router-dom": "7.5.3",
+    "slick-carousel": "1.8.1",
+    "swr": "2.3.3",
+    "vite": "6.3.5",
+    "vite-jsconfig-paths": "2.0.1",
+    "web-vitals": "5.0.0",
+    "yup": "1.6.1"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
+    "lint:fix": "eslint --fix \"src/**/*.{js,jsx,ts,tsx}\"",
+    "prettier": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\""
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@eslint/compat": "1.2.9",
+    "@eslint/eslintrc": "3.3.1",
+    "@eslint/js": "9.26.0",
+    "eslint": "9.25.1",
+    "eslint-config-prettier": "10.1.2",
+    "eslint-plugin-jsx-a11y": "6.10.2",
+    "eslint-plugin-prettier": "5.2.6",
+    "eslint-plugin-react": "7.37.5",
+    "eslint-plugin-react-hooks": "5.2.0",
+    "prettier": "3.5.3",
+    "sass": "1.87.0"
+  },
+  "packageManager": "yarn@4.9.1"
+}
